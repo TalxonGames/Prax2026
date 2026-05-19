@@ -44,5 +44,5 @@ Tento repozitár slúži ako prehľad mojej práce a pokrokov počas tohtoročne
 
 ## 🔗 Užitočné odkazy
 
-*   [Môj Figma Projekt]()
+*   [Môj Figma Projekt](https://www.figma.com/design/oWphOCA9iTMVttHaDIMuQ1/Untitled?node-id=0-1&t=hhMHYYPEwgG5sUvM-1)
 *   [Živé demo stránky]()
