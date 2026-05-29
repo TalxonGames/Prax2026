@@ -32,12 +32,12 @@ Tento repozitár slúži ako prehľad mojej práce a pokrokov počas tohtoročne
 
 ### 1. Fáza: Návrh a Figma (Aktuálne)
 *   [x] Zoznámenie sa s prostredím Figma
-*   [ ] Tvorba wireframu (rozvrhnutie prvkov)
-*   [ ] Finálny vizuálny návrh základnej stránky
+*   [x] Tvorba wireframu (rozvrhnutie prvkov)
+*   [x] Finálny vizuálny návrh základnej stránky
 
 ### 2. Fáza: Kódovanie webu
-*   [ ] Príprava HTML štruktúry
-*   [ ] Stylovanie pomocou CSS (responzívny dizajn)
+*   [x] Príprava HTML štruktúry
+*   [x] Stylovanie pomocou CSS (responzívny dizajn)
 *   [ ] Kontrola chýb a validácia kódu
 
 ---
