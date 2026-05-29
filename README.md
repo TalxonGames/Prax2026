@@ -45,4 +45,4 @@ Tento repozitár slúži ako prehľad mojej práce a pokrokov počas tohtoročne
 ## 🔗 Užitočné odkazy
 
 *   [Môj Figma Projekt](https://www.figma.com/design/oWphOCA9iTMVttHaDIMuQ1/Untitled?node-id=0-1&t=hhMHYYPEwgG5sUvM-1)
-*   [Živé demo stránky]([https://6a1503941dee65d0aec7c06e--splendid-donut-359af4.netlify.app/](https://6a19feadf1e109d5e064c7c8--splendid-donut-359af4.netlify.app/)
+*   [Živé demo stránky](https://6a1503941dee65d0aec7c06e--splendid-donut-359af4.netlify.app/](https://6a19feadf1e109d5e064c7c8--splendid-donut-359af4.netlify.app/)
