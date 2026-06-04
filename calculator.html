@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WhatIsMyRate – Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">
+      <img src="images/logo-icon.png" alt="logo" class="logo-icon" />
+      <span>WhatIsMyRate</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="calculator.html" class="active">Calculator</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+    </ul>
+    <a href="calculator.html" class="btn-get-started">Get Started</a>
+  </nav>
+
+  <section class="calc-page">
+    <div class="calc-card">
+      <h1>Freelance Rate Calculator</h1>
+
+      <div class="calc-row">
+        <label class="calc-label">Your Profession:</label>
+        <input type="text" id="profession" class="calc-input-full" placeholder="Graphic Designer" />
+      </div>
+
+      <div class="calc-row">
+        <label class="calc-label">Desired Monthly Income:</label>
+        <div class="income-row">
+          <input type="number" id="income" class="calc-input-income" placeholder="6000" />
+          <select id="currency" class="calc-currency">
+            <option>USD</option>
+            <option selected>EUR</option>
+            <option>GBP</option>
+            <option>CAD</option>
+            <option>AUD</option>
+            <option>CHF</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="calc-row">
+        <label class="calc-label">Monthly Expenses:</label>
+        <input type="number" id="expenses" class="calc-input-full" placeholder="1500" />
+      </div>
+
+      <div class="calc-row">
+        <label class="calc-label">Billable Hours Per Week:</label>
+        <input type="number" id="hours" class="calc-input-full" placeholder="30" />
+      </div>
+
+      <div class="calc-row">
+        <label class="calc-label">Weeks Off Per Year:</label>
+        <input type="number" id="weeksoff" class="calc-input-full" placeholder="4" />
+      </div>
+
+      <div class="calc-row">
+        <label class="calc-label">Tax Rate %:</label>
+        <input type="number" id="taxrate" class="calc-input-full" placeholder="25" />
+      </div>
+
+      <button class="btn-primary btn-scale" id="btn-calculate">Calculate Rate</button>
+
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>

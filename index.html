@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PEŠ – Elektroinštalácie a zabezpečenie budov</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-text">PEŠ</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Domov</a></li>
+      <li><a href="aboutus.html">O nás</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Elektroinštalácie<br/>a zabezpečenie budov.</h1>
+      <p class="hero-sub">Profesionálne riešenia pre váš domov aj firmu.</p>
+      <a href="#services" class="btn-primary btn-hero">Zistiť viac</a>
+    </div>
+    <div class="hero-img-placeholder img-placeholder-block">
+      <span class="placeholder-icon">＋</span>
+      <span class="placeholder-label">hero-image.png</span>
+      <span class="placeholder-hint">napr. fotka práce / tímu</span>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <h2>Naše služby</h2>
+    <div class="service-cards">
+      <div class="service-card">
+        <div class="img-placeholder">
+          <img src="images/bolt.png" alt="Elektroinštalácie" class="service-icon" onerror="this.parentElement.classList.add('no-img')" />
+          <span class="placeholder-label">bolt.png</span>
+        </div>
+        <h3>Elektroinštalácie</h3>
+        <p>Komplexné elektrické rozvody pre domy aj firmy.</p>
+      </div>
+      <div class="service-card">
+        <div class="img-placeholder">
+          <img src="images/shield.png" alt="Zabezpečenie budov" class="service-icon" onerror="this.parentElement.classList.add('no-img')" />
+          <span class="placeholder-label">shield.png</span>
+        </div>
+        <h3>Zabezpečenie budov</h3>
+        <p>Kamerové systémy, alarmy a kontrola vstupu.</p>
+      </div>
+      <div class="service-card">
+        <div class="img-placeholder">
+          <img src="images/wrench.png" alt="Servis a opravy" class="service-icon" onerror="this.parentElement.classList.add('no-img')" />
+          <span class="placeholder-label">wrench.png</span>
+        </div>
+        <h3>Servis a opravy</h3>
+        <p>Rýchly servis a odborné opravy na mieste.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="why">
+    <h2>Prečo PEŠ</h2>
+    <div class="why-cards">
+      <div class="why-card">
+        <div class="img-placeholder img-placeholder--wide">
+          <img src="images/house.png" alt="Rodinné domy" class="service-icon" onerror="this.parentElement.classList.add('no-img')" />
+          <span class="placeholder-label">house.png</span>
+        </div>
+        <h3>Rodinné domy</h3>
+        <ul>
+          <li>Elektroinštalácie, Alarmy, Osvetlenie</li>
+          <li>Revízie</li>
+        </ul>
+        <a href="#contact" class="btn-primary btn-interest">Mám záujem</a>
+      </div>
+      <div class="why-card">
+        <div class="img-placeholder img-placeholder--wide">
+          <img src="images/building.png" alt="Firmy a objekty" class="service-icon" onerror="this.parentElement.classList.add('no-img')" />
+          <span class="placeholder-label">building.png</span>
+        </div>
+        <h3>Firmy a objekty</h3>
+        <ul>
+          <li>Silnoprúd, Slaboprúd, Kamerové systémy, Zabezpečenie</li>
+        </ul>
+        <a href="#contact" class="btn-primary btn-interest">Mám záujem</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-bar" id="contact">
+    <span class="cta-text">Máte projekt?</span>
+    <a href="mailto:info@pes.sk" class="btn-primary btn-cta">Kontaktujte nás</a>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
